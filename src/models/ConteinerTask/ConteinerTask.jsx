@@ -7,16 +7,13 @@ import './ConteinerTask.css'
 const ConteinerTask = () => {
   const [task, setTaks] = useState([]);
   const [contentTask, setContentTask] = useState("");
-
   const addTask = () => {
     setTaks([contentTask, ...task])
-
   }
 
   const handleChange = (event) => {
     setContentTask(event.target.value)
   }
-
   return (
 
     <div className='conteinerTasks'>
