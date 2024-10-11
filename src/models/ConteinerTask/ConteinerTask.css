@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.conteinerTasks{
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 100px auto 0;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 4px;
+}
+.div-task{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin: auto;
+    margin-bottom: 20px;
+    color: #252525;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.div-tasks{
+    display: flex;
+    flex-direction: column;
+    
+}
+.li_element_task{
+    display: flex;
+    justify-content: space-between;
+}
+.div-li-checkbox{
+    display: flex;
+    width: 70%;
+    align-content:center ;
+    margin: 5px;
+    
+}
+.input-checkbox{
+    width: 20px;
+    height: 20px;
+    margin:  auto 0;
+}
+.button-delete{
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: auto;
+
+    cursor: pointer;
+}
+
+.button-delete:active{
+   color: #252525
+}
+.button-delete svg{
+    color: red;
+}
