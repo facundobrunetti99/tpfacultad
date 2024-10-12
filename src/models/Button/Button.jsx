@@ -1,10 +1,10 @@
 import React from 'react'
 import './Button.css'
-import { useState } from 'react'
-const Button = ({buttonClass,buttonValue, onClick}) => {
+
+const Button = ({buttonClass,buttonValue}) => {
    
   return (
-    <button className={buttonClass} onClick={onClick} >{buttonValue}</button>
+    <button className={buttonClass} >{buttonValue}</button>
   )
 }
 
