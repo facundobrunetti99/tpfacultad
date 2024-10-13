@@ -21,6 +21,10 @@ const ConteinerTask = () => {
     newTasks.splice(index, 1); // Eliminamos la tarea en el índice dado
     setTaks(newTasks); // Actualizamos el estado con la nueva lista
   };
+
+
+
+  
   return (
 
     <div className='conteinerTasks'>
@@ -44,6 +48,7 @@ const ConteinerTask = () => {
             <Input
               inputClass={'input-checkbox'}
               inputType={"checkbox"}
+
             ></Input>
             <Label labelValue={content}>  </Label>
           </div>

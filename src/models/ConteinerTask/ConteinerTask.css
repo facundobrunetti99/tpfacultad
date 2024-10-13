@@ -60,3 +60,8 @@ h2 {
     padding: 5px;
     border-radius: 5px;
 }
+.conteiner-task-checkbox{
+    display: flex;
+    flex-direction: row;
+   
+}

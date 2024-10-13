@@ -4,10 +4,18 @@
     ;
     color: #292929;
     font-size: 20px;
+    
 }
 
 
 .label-checkbox {
+    height: 25px;
+    display: block;
     font-size: 20px;
+    margin: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
