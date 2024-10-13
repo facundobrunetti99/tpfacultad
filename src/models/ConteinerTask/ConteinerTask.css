@@ -1,65 +1,62 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.conteinerTasks{
-    background-color: #f3f3f3;
+.conteinerTasks {
+    background-color: #f8f4f4;
     display: flex;
     flex-direction: column;
+    justify-items: center;
     width: 500px;
     margin: 100px auto 0;
-    justify-content: center;
-    justify-items: center;
     margin-bottom: 50px;
     padding: 10px;
     border-radius: 4px;
+
 }
-.div-task{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
 }
-h2{
-    margin: auto;
-    margin-bottom: 20px;
-    color: #252525;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.div-tasks{
-    display: flex;
-    flex-direction: column;
-    
-}
-.li_element_task{
+
+.div-task {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-left: 7px;
+    margin-right: 7px;
+
+
 }
-.div-li-checkbox{
+
+
+
+
+
+.task-items {
     display: flex;
-    width: 70%;
-    align-content:center ;
-    margin: 5px;
-    
-}
-.input-checkbox{
-    width: 20px;
-    height: 20px;
-    margin:  auto 0;
-}
-.button-delete{
-    width: 30px;
-    height: 30px;
-    border: none;
-    margin: auto;
-
-    cursor: pointer;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 7px;
+    border: 1px solid #6e6c6c;
+    padding: 10px;
+    border-radius: 4px;
 }
 
-.button-delete:active{
-   color: #252525
-}
-.button-delete svg{
-    color: red;
+.list-task-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 9px;
+    margin-right: 9px;
+    border: 1px solid #9e9c9c;
+    padding: 5px;
+    border-radius: 5px;
 }

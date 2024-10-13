@@ -1,4 +1,4 @@
-.button_task{
+.button_task {
     padding: 10px;
     background-color: black;
     color: #fff;
@@ -8,5 +8,17 @@
     font-size: 15px;
     margin: 5px;
     cursor: pointer;
-    
+
+}
+
+
+.button-delete {
+    cursor: pointer;
+    border: none;
+    background-color: #f8f4f4;
+}
+
+svg {
+    background-color: #f8f4f4;
+    border: none;
 }

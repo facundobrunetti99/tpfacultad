@@ -1,12 +1,21 @@
 import React from 'react'
 import './Input.css'
-const Input = ({inputClass,onChange, inputType}) => {
-  return (
-    <>
-    <input type={inputType} className={inputClass} onChange={onChange}/>
+const Input = ({inputClass, inputType,onChange}) => {
+ 
+    
+{
+  if(inputType==='text'){
+    return <input type={inputType} className={inputClass} onChange={onChange}/>
+
+  }else if (inputType==='checkbox'){
+    return <input type={inputType} className={inputClass} />
+  }
+  
+}
+
+   
         
-    </>
-  )
+ 
 }
 
 export default Input
