@@ -1,8 +1,8 @@
 import React from 'react'
 import './Label.css'
-const Label = ({labelValue}) => {
+const Label = ({labelValue, style}) => {
   return (
-    <label className='input-label'>{labelValue}</label>
+    <label className='input-label' style={style}>{labelValue}</label>
   )
 }
 

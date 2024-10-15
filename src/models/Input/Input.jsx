@@ -8,7 +8,7 @@ const Input = ({inputClass, inputType,onChange}) => {
     return <input type={inputType} className={inputClass} onChange={onChange}/>
 
   }else if (inputType==='checkbox'){
-    return <input type={inputType} className={inputClass} />
+    return <input type={inputType} className={inputClass} onChange={onChange} />
   }
   
 }
